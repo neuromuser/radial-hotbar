@@ -1,0 +1,19 @@
+{
+  "main.radialhotbar.title": "Radial Hotbar",
+  "modmenu.descriptionTranslation.radialhotbar": "A faster way to access your items on hot bar",
+  "key.category.radialhotbar.general": "Radial Hotbar",
+  "key.category.radialhotbar.openkey": "Open Radial Menu.",
+  "config.radialhotbar.category.general": "General",
+  "config.radialhotbar.option.enabled": "Enable Mod",
+  "config.radialhotbar.option.enabled.tooltip": "Enables or disables mod.",
+  "config.radialhotbar.option.scaleFactor": "Scale Factor",
+  "config.radialhotbar.option.scaleFactor.tooltip": "Controls how big the radial hot bar appears on screen.",
+  "config.radialhotbar.option.shownames": "Show Item Names",
+  "config.radialhotbar.option.shownames.tooltip": "Shows item name in radial hot bar slots.",
+  "config.radialhotbar.option.hideEmptySlots": "Hide Empty Slots",
+  "config.radialhotbar.option.hideEmptySlots.tooltip": "If true, empty slots on hot bar will not appear in the radial menu.",
+  "config.radialhotbar.option.useCenterItemPreview": "Show a item preview in the center",
+  "config.radialhotbar.option.useCenterItemPreview.tooltip": "Enables the item preview shown in the center of the radial menu.",
+  "config.radialhotbar.option.allowMovementWhileOpen": "Allow movement",
+  "config.radialhotbar.option.allowMovementWhileOpen.tooltip": "Allows the player to move while the radial menu is open."
+}

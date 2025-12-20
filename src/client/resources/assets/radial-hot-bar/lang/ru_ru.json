@@ -1,0 +1,19 @@
+{
+  "main.radialhotbar.title": "Radial Hot Bar",
+  "modmenu.descriptionTranslation.radialhotbar": "Быстрый способ доступа к предметам c хотбара",
+  "key.category.radialhotbar.general": "Радиальное быстрое меню",
+  "key.category.radialhotbar.openkey": "Открыть радиальное меню",
+  "config.radialhotbar.category.general": "Общие",
+  "config.radialhotbar.option.enabled": "Включить мод",
+  "config.radialhotbar.option.enabled.tooltip": "Включает или выключает мод.",
+  "config.radialhotbar.option.scaleFactor": "Фактор масштаба",
+  "config.radialhotbar.option.scaleFactor.tooltip": "Определяет, насколько большим будет радиальное меню на экране.",
+  "config.radialhotbar.option.shownames": "Показывать названия предметов",
+  "config.radialhotbar.option.shownames.tooltip": "Показывает названия предметов в слотах радиального меню.",
+  "config.radialhotbar.option.hideEmptySlots": "Скрывать пустые слоты",
+  "config.radialhotbar.option.hideEmptySlots.tooltip": "Если включено, пустые слоты панели не будут отображаться в радиальном меню.",
+  "config.radialhotbar.option.useCenterItemPreview": "Показывать предпросмотр предмета в центре",
+  "config.radialhotbar.option.useCenterItemPreview.tooltip": "Включает предпросмотр предмета, отображаемый в центре радиального меню.",
+  "config.radialhotbar.option.allowMovementWhileOpen": "Разрешить движение",
+  "config.radialhotbar.option.allowMovementWhileOpen.tooltip": "Позволяет игроку двигаться, пока открыто радиальное меню."
+}

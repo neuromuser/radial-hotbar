@@ -1,0 +1,19 @@
+{
+  "main.radialhotbar.title": "Radial Hot Bar",
+  "modmenu.descriptionTranslation.radialhotbar": "Швидший спосіб доступа до предметів з хотбару",
+  "key.category.radialhotbar.general": "Радіальна панель швидкого доступу",
+  "key.category.radialhotbar.openkey": "Відкрити радіальне меню.",
+  "config.radialhotbar.category.general": "Загальні",
+  "config.radialhotbar.option.enabled": "Увімкнути мод",
+  "config.radialhotbar.option.enabled.tooltip": "Вмикає або вимикає мод.",
+  "config.radialhotbar.option.scaleFactor": "Фактор масштабу",
+  "config.radialhotbar.option.scaleFactor.tooltip": "Керує тим, наскільки великою буде радіальна панель на екрані.",
+  "config.radialhotbar.option.shownames": "Показувати назви предметів",
+  "config.radialhotbar.option.shownames.tooltip": "Показує назви предметів у слотах радіальної панелі.",
+  "config.radialhotbar.option.hideEmptySlots": "Приховувати порожні слоти",
+  "config.radialhotbar.option.hideEmptySlots.tooltip": "Якщо увімкнено, порожні слоти панелі не будуть відображатися в радіальному меню.",
+  "config.radialhotbar.option.useCenterItemPreview": "Показувати перегляд предмета в центрі",
+  "config.radialhotbar.option.useCenterItemPreview.tooltip": "Увімкнути попередній перегляд предмета в центрі радіального меню.",
+  "config.radialhotbar.option.allowMovementWhileOpen": "Дозволити рух",
+  "config.radialhotbar.option.allowMovementWhileOpen.tooltip": "Дозволяє гравцю рухатися, коли радіальне меню відкрите."
+}
