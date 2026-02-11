@@ -11,5 +11,5 @@ public class RadialHotBarConfig {
     public boolean allowMovementWhileOpen = true; // Allows the player to move while the radial menu is open.
     public boolean useAutoSortSlots = false; // Automatically sorts item by category: Tools, Weapons, Food, Blocks, Potions
     public boolean useAutoEquipArmor = true; // Whether the radial menu should automatically equip armor when selected.
-
+	public boolean useSwapToRecentOnNoSelect = false; //If no slot is selected in the radial menu, the radial menu swaps between the current and previously used slots
 }

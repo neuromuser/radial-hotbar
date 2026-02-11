@@ -19,5 +19,7 @@
   "config.radialhotbar.option.autoSort": "Auto Sort",
   "config.radialhotbar.option.autoSort.tooltip": "Automatically sorts items by category: Tools, Weapons, Food, Blocks, and Potions.",
   "config.radialhotbar.option.autoEquipArmor": "Auto Equip Armor",
-  "config.radialhotbar.option.autoEquipArmor.tooltip": "Automatically equips armor when it is selected from the radial menu."
+  "config.radialhotbar.option.autoEquipArmor.tooltip": "Automatically equips armor when it is selected from the radial menu.",
+  "config.radialhotbar.option.swapToRecentOnNoSelect": "Swap to Previously Used Slot (If No Selection)",
+  "config.radialhotbar.option.swapToRecentOnNoSelect.tooltip": "If no slot is selected in the radial menu, the radial menu swaps between the current and previously used slots."
 }

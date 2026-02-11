@@ -16,9 +16,9 @@ import github.devhrytsan.radialhotbar.platform.fabric.FabricPlatform;
 @SuppressWarnings("LoggingSimilarMessage")
 public class RadialHotBarMod {
 
-	public static final String MOD_ID = /*$ mod_id*/ "mod";
-	public static final String MOD_VERSION = /*$ mod_version*/ "0.0.0";
-	public static final String MOD_FRIENDLY_NAME = /*$ mod_name*/ "Mod";
+	public static final String MOD_ID = /*$ mod_id*/ "radialhotbar";
+	public static final String MOD_VERSION = /*$ mod_version*/ "0.3.0";
+	public static final String MOD_FRIENDLY_NAME = /*$ mod_name*/ "Radial Hot Bar";
 	public static final Logger MAIN_LOGGER = LoggerFactory.getLogger(MOD_ID);
 
 	private static final Platform PLATFORM = createPlatformInstance();

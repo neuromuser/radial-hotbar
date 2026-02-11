@@ -72,6 +72,12 @@ public class RadialHotBarConfigScreen {
                 .setSaveConsumer(newValue -> FileConfigHandler.CONFIG_INSTANCE.useAutoEquipArmor = newValue)
                 .build());
 
+		general.addEntry(entryBuilder.startBooleanToggle(Component.translatable("config.radialhotbar.option.swapToRecentOnNoSelect"), FileConfigHandler.CONFIG_INSTANCE.useSwapToRecentOnNoSelect)
+				.setDefaultValue(false)
+				.setTooltip(Component.translatable("config.radialhotbar.option.swapToRecentOnNoSelect.tooltip"))
+				.setSaveConsumer(newValue -> FileConfigHandler.CONFIG_INSTANCE.useSwapToRecentOnNoSelect = newValue)
+				.build());
+
         return builder.build();
     }
 }
