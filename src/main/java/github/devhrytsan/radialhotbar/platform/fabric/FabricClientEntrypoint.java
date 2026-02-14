@@ -12,6 +12,7 @@ public class FabricClientEntrypoint implements ClientModInitializer {
 	@Override
 	public void onInitializeClient() {
 		RadialHotBarMod.onInitializeClient();
+		RadialHotBarMod.InitializeModFabric();
 	}
 
 }

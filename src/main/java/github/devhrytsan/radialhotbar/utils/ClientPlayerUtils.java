@@ -1,33 +1,44 @@
 package github.devhrytsan.radialhotbar.utils;
 
+import com.mojang.blaze3d.platform.Window;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.player.LocalPlayer;
 import net.minecraft.world.inventory.ClickType;
 
 public class ClientPlayerUtils {
 
-	public static int getPlayerSelectedSlot(LocalPlayer player){
+	public static long GetWindowHandle(Window clientWindow) {
 		//? if >=1.21.5 {
-		return player.getInventory().getSelectedSlot();
+		return clientWindow.handle();
 		//? } else {
 		/*
-		return player.getInventory().selected;
+		return clientWindow.getWindow();
 		*/
 		//? }
 	}
 
-	public static void setPlayerSelectedSlot(LocalPlayer player, int slot){
+	public static int getPlayerSelectedSlot(LocalPlayer player) {
+		//? if >=1.21.5 {
+		return player.getInventory().getSelectedSlot();
+		//? } else {
+
+		/*return player.getInventory().selected;
+
+		 *///? }
+	}
+
+	public static void setPlayerSelectedSlot(LocalPlayer player, int slot) {
 
 		//? if >=1.21.5 {
 		player.getInventory().setSelectedSlot(slot);
 		//? } else {
-		/*
-		player.getInventory().selected = slot;
-		*/
-		//? }
+
+		/*player.getInventory().selected = slot;
+
+		 *///? }
 	}
 
-	public static void HandleMouseClickPickup(Minecraft client, int slotId) {
+	public static void handleMouseClickPickup(Minecraft client, int slotId) {
 		if (client.gameMode == null || client.player == null) return;
 
 		client.gameMode.handleInventoryMouseClick(
@@ -39,7 +50,7 @@ public class ClientPlayerUtils {
 		);
 	}
 
-	public static void HandleMouseClickSwap(Minecraft client, int fromSlot, int toSlot) {
+	public static void handleMouseClickSwap(Minecraft client, int fromSlot, int toSlot) {
 		if (client.gameMode == null || client.player == null) return;
 
 		client.gameMode.handleInventoryMouseClick(
@@ -49,6 +60,14 @@ public class ClientPlayerUtils {
 				ClickType.SWAP,
 				client.player
 		);
+	}
+
+	public static double getScaledMouseX(Minecraft client) {
+		return (double) (client.mouseHandler.xpos() / client.getWindow().getGuiScale());
+	}
+
+	public static double getScaledMouseY(Minecraft client) {
+		return (double) (client.mouseHandler.ypos() / client.getWindow().getGuiScale());
 	}
 
 }

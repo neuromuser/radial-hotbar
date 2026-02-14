@@ -12,7 +12,7 @@ import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
 public class NeoforgeClientEventSubscriber {
 	@SubscribeEvent
 	public static void onClientSetup(final FMLClientSetupEvent event) {
-		ModTemplate.onInitializeClient();
+		RadialHotBarMod.onInitializeClient();
 	}
 }
 *///?}

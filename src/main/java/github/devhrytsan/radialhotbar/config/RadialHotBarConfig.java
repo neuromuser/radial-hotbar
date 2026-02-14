@@ -1,8 +1,6 @@
 package github.devhrytsan.radialhotbar.config;
 
 public class RadialHotBarConfig {
-    //public static RadialHotBarConfig INSTANCE = new RadialHotBarConfig();
-
     public boolean modEnabled = true;       // Mod switch
     public int scaleFactor = 3; // Scales up radial menu
     //public boolean showItemNames = true;    // Shows names of the items

@@ -13,7 +13,11 @@ public class ForgeClientEventSubscriber {
 
 	@SubscribeEvent
 	public static void onClientSetup(final FMLClientSetupEvent event) {
-		ModTemplate.onInitializeClient();
+		RadialHotBarMod.onInitializeClient();
 	}
+	@SubscribeEvent
+    public void registerBindings(RegisterKeyMappingsEvent event) {
+    event.register();
+    }
 }
 *///?}
